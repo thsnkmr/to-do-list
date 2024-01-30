@@ -10,7 +10,7 @@ body {
     background-color: #202024;
     width: 100%;
     height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 header {
@@ -33,7 +33,7 @@ input {
     font-size: 1rem;
     outline: none;
     background-color: #202024;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 button {
@@ -51,8 +51,8 @@ button {
 }
 
 button:hover {
-    background-color: #004E14;
-    color: #FFFFFF;
+    background-color: #004e14;
+    color: #ffffff;
 }
 
 section#task {
@@ -67,7 +67,7 @@ ul li {
     position: relative;
     padding: 0.5rem;
     background-color: rgb(22, 22, 24);
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -78,11 +78,11 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 ul li span {
-    color: #CCCCCC;
+    color: #cccccc;
     font-style: italic;
     font-size: 0.8rem;
     padding-left: 1rem;
@@ -99,19 +99,19 @@ ul li:nth-child(odd){
 }
 
 ul li:hover {
-    background-color: #5A5A5A;
+    background-color: #5a5a5a;
 }
 
 a.btnUpdate {
     padding: 0.5rem;
     text-decoration: none;
-    color: #CCCCCC;
+    color: #cccccc;
     transition: all 0.3s ease-in-out;
 }
 
 a.btnUpdate:hover {
-    background-color: #3643F4;
-    color: #FFFFFF;
+    background-color: #3643f4;
+    color: #ffffff;
 }
 
 a.btnDelete {
@@ -122,8 +122,8 @@ a.btnDelete {
 }
 
 a.btnDelete:hover {
-    background-color: #F44336;
-    color: #FFFFFF;
+    background-color: #f44336;
+    color: #ffffff;
 }
 
 section#modal {
@@ -158,14 +158,14 @@ div#card h2 {
 }
 
 div#card a#close {
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
 
 div#card a#close:hover {
-    background-color: #F44336;
+    background-color: #f44336;
     border-radius: 10%;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
@@ -200,24 +200,59 @@ div#btns a {
 }
 
 div#btns a#btnNot {
-    color: #F44336;
-    border: solid 1px #F44336;
+    color: #f44336;
+    border: solid 1px #f44336;
     margin-right: 1rem;
     transition: all 0.3s ease-in-out;
 }
 
 div#btns a#btnNot:hover {
-    background-color: #F44336;
-    color: #FFFFFF;
+    background-color: #f44336;
+    color: #ffffff;
 }
 
 div#btns a#btnYes {
-    color: #00AA2A;
-    border: solid 1px #00AA2A;
+    color: #00aa2a;
+    border: solid 1px #00aa2a;
     transition: all 0.3s ease-in-out;
 }
 
 div#btns a#btnYes:hover {
-    background-color: #00AA2A;
-    color: #FFFFFF;
+    background-color: #00aa2a;
+    color: #ffffff;
+}
+
+.message {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-danger {
+    background-color: rgb(255, 197, 197);
+    color: #8a0000;
+}
+
+.message-success {
+    background-color: rgb(197, 255, 214);
+    color: #008a1e;
+}
+
+span#close-message {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 2rem;
+}
+
+span#close-message:hover {
+    color: #f44336;
 }
